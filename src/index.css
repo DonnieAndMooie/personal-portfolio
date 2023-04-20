@@ -1,13 +1,95 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Lilita";
+  src: url(./Fonts/LilitaOne-Regular.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Montserrat";
+  src: url(./Fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  color: white;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+body{
+  background-image: linear-gradient(to bottom, #190221, #1f072e, #27083d, #2e084c, #36065b, #400667, #4a0472, #54027e, #630287, #720290, #820199, #9200a1);
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+h1, h2{
+  font-family: "Lilita";
+  letter-spacing: 2px;
+}
+
+.about{
+  display: flex;
+  gap: 300px;
+  align-items: center;
+}
+
+.about p{
+  margin-bottom: 20px;
+}
+
+.profile-pic{
+  animation: slidein 1s ease-in 0.2s 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-pic img{
+  max-height: 240px;
+  border-radius: 80%;
+}
+
+.profile-pic h1{
+  font-size: 44px;
+  text-align: center;
+}
+
+.about h2{
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about-me{
+  animation: slidedown 1s ease-in-out 0.2s 1;
+  margin-top: 10px;
+  font-size: 20px;
+  max-width: 1000px;
+}
+
+
+a:hover{
+  color: grey;
+}
+
+@keyframes slidein {
+  from{
+    opacity: 0%;
+    transform: translateX(-400px);
+  }
+  to{
+    opacity: 100%;
+  }
+}
+
+@keyframes slidedown {
+  from{
+    opacity: 0%;
+    transform: translateY(-400px);
+  }
+  to{
+    opacity: 100%;
+  }
 }
