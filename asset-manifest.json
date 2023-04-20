@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.ebb4af96.css",
+    "main.js": "/personal-portfolio/static/js/main.43e7e74e.js",
+    "static/media/twitter-clone.mp4": "/personal-portfolio/static/media/twitter-clone.3ed82644a0dd88296da5.mp4",
+    "static/media/wheres-wally.mp4": "/personal-portfolio/static/media/wheres-wally.f398e987c09694d87196.mp4",
+    "static/media/shopping-cart.mp4": "/personal-portfolio/static/media/shopping-cart.1b7b63591d549c703d8b.mp4",
+    "static/media/weather-app.mp4": "/personal-portfolio/static/media/weather-app.d7b654c0b50e5a739ec4.mp4",
+    "static/media/battleship.mp4": "/personal-portfolio/static/media/battleship.d3013ec507e2a0ac655b.mp4",
+    "static/media/tic-tac-toe.mp4": "/personal-portfolio/static/media/tic-tac-toe.b6d2bbbb58e9a721b083.mp4",
+    "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/personal-portfolio/static/media/Montserrat-Italic-VariableFont_wght.ef11b720b9a6cfb9a317.ttf",
+    "static/media/Jost-Italic-VariableFont_wght.ttf": "/personal-portfolio/static/media/Jost-Italic-VariableFont_wght.4bb3ef274c32dacc8bfe.ttf",
+    "static/media/profile-pic.jpg": "/personal-portfolio/static/media/profile-pic.de3e6d7cd0a1bb6c4241.jpg",
+    "static/media/LilitaOne-Regular.ttf": "/personal-portfolio/static/media/LilitaOne-Regular.e970d047065ed950bb8c.ttf",
+    "index.html": "/personal-portfolio/index.html",
+    "main.ebb4af96.css.map": "/personal-portfolio/static/css/main.ebb4af96.css.map",
+    "main.43e7e74e.js.map": "/personal-portfolio/static/js/main.43e7e74e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebb4af96.css",
+    "static/js/main.43e7e74e.js"
+  ]
+}
