@@ -24,7 +24,6 @@ export default function Header() {
              a full stack web dev. I can now make you awesome websites - like this one!
              You can view some more of my work below:</p>
         </div>
-        
     </section>
   )
 }
