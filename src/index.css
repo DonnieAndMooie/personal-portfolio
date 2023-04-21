@@ -21,6 +21,16 @@
   font-family: "Montserrat";
 }
 
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none; 
+  -khtml-user-select: none;
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
+                            
+}
+
 body{
   background-image: linear-gradient(to bottom, #190221, #1f072e, #27083d, #2e084c, #36065b, #400667, #4a0472, #54027e, #630287, #720290, #820199, #9200a1);
   background-repeat: no-repeat;
@@ -56,6 +66,11 @@ h1, h2{
 .profile-pic img{
   max-height: 240px;
   border-radius: 80%;
+  transition: transform 1s ease-in-out 0s;
+}
+
+.profile-pic img:hover{
+  transform: rotate(360deg)
 }
 
 .profile-pic h1{
@@ -162,6 +177,15 @@ footer h2{
   display: flex;
   gap: 18px;
   align-items: center;
+}
+
+.contact-icons svg{
+  transition: transform 0.7s ease-in 0s;
+}
+
+.contact-icons svg:hover{
+  transform: scale(1.2) rotate(360deg);
+  
 }
 
 @keyframes slidein {

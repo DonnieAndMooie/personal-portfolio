@@ -6,7 +6,7 @@ export default function Header() {
     <section className='about'>
         <div className="profile-pic">
             <img src={ProfilePic} alt="Me!" />
-            <h1>Owen Eaves</h1>
+            <h1 className='noselect'>Owen Eaves</h1>
         </div>
         <div className="about-me">
             <h2>About Me</h2>

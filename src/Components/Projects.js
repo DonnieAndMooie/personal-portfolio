@@ -31,8 +31,8 @@ export default function Projects() {
   return (
     <div>
         <div className='project-preview'>
-            <h2>My Projects</h2>
-            <h2 className='arrow'>˅</h2>
+            <h2 className='noselect'>My Projects</h2>
+            <h2 className='arrow noselect'>˅</h2>
         </div>
         <div className="projects reveal">
             <ProjectItem video={ShoppingCart} title="Shopping Cart" description={"Browse my fake shop and add items to your basket. Made using React."} link="https://donnieandmooie.github.io/shopping-cart" github="https://github.com/DonnieAndMooie/shopping-cart"></ProjectItem>
