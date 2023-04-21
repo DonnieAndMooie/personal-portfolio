@@ -18,9 +18,6 @@ export default function Projects() {
     const windowHeight = window.innerHeight
     const elementTop = reveal.getBoundingClientRect().top
     const elementVisible = 150
-    console.log(elementTop)
-    console.log(windowHeight - elementVisible)
-    console.log("------------------------------------")
     if (elementTop < windowHeight - elementVisible){
       reveal.classList.add("visible")
     }

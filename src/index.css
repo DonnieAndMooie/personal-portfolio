@@ -76,7 +76,8 @@ h1, h2{
 }
 
 
-a:hover{
+a:hover,
+a:hover p{
   color: grey;
 }
 
@@ -117,6 +118,7 @@ a:hover{
 
 .project-item *{
   padding-bottom: 10px;
+  color: rgb(0, 0, 0);
 }
 
 .title-and-icons{
@@ -131,6 +133,35 @@ a:hover{
 
 .visible{
   animation: fadein 2.5s ease-in-out 2s 1 forwards;
+}
+
+svg:hover path{
+  color: gray;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10vh;
+  font-size: 24px;
+  gap: 10px;
+}
+
+footer h2{
+  font-size: 32px;
+}
+
+.contact-icons{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-icons a{
+  display: flex;
+  gap: 18px;
+  align-items: center;
 }
 
 @keyframes slidein {
